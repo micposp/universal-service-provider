@@ -1,0 +1,34 @@
+<svg width="209" height="54" xmlns="http://www.w3.org/2000/svg">
+ <defs>
+  <style>.cls-1 {
+        fill: #2584ff;
+        stroke: #2584ff;
+      }
+
+      .cls-1, .cls-2 {
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 10px;
+        fill-rule: evenodd;
+      }
+
+      .cls-2 {
+        fill: #ff3400;
+        stroke: #ff3400;
+        mix-blend-mode: lighten;
+      }
+
+      .cls-3 {
+        font-size: 32.498px;
+        fill: #fff;
+        font-family: Inter;
+        font-weight: 700;
+      }</style>
+ </defs>
+ <g>
+  <title>Layer 1</title>
+  <path d="m43.851,29.7l-19.607,9.5l7.793,-25.18l11.814,15.68z" class="cls-1" data-name="Polygon 1 copy 2" id="Polygon_1_copy_2"/>
+  <path d="m37.033,29.7l19.607,9.5l-7.793,-25.18l-11.814,15.68z" class="cls-2" data-name="Polygon 1 copy 2" id="Polygon_1_copy_2-2"/>
+  <text stroke="null" x="1.08342" y="1.08342" transform="matrix(0.778031 0 0 0.923 70.7315 35.437)" class="cls-3" id="Moshify">U S P</text>
+ </g>
+</svg>
