@@ -305,7 +305,7 @@ a {
   margin: 4px;
 }
 
-@media screen and (min-width: 1024) {
+@media screen and (min-width: 1024px) {
   .input {
     font-size: 1.5rem;
   }
@@ -385,7 +385,7 @@ a {
   right: 5%;
 }
 
-@media screen and (min-width: 1024) {
+@media screen and (min-width: 1024px) {
   .plan__name {
     font-size: 1.4rem;
   }
@@ -456,7 +456,7 @@ a {
   bottom: 10px;
 }
 
-@media screen and (min-width: 1024) {
+@media screen and (min-width: 1024px) {
   .quote {
     font-size: 2rem;
   }
