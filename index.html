@@ -11,6 +11,7 @@
     />
     <link rel="stylesheet" href="css/normalize.css" />
     <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   </head>
 
   <body>
@@ -32,13 +33,15 @@
     <section class="block block--dark block--skewed-left hero">
       <div class="container grid grid--1x2">
         <header class="block__header hero__content">
-          <h1 class="block__heading">Cloud Hosting for Pros</h1>
+          <h1 data-aos="zoom-in-up" class="block__heading">
+            Cloud Hosting for Pros
+          </h1>
           <p class="hero__tagline">
             Deploy your websites in less than 60 seconds.
           </p>
           <a href="" class="btn btn--accent btn--stretched">Get started</a>
         </header>
-        <picture>
+        <picture data-aos="zoom-in">
           <source
             type="image/wepb"
             srcset="images/banner.webp 1x, images/banner@2x.webp 2x"
@@ -52,7 +55,7 @@
       </div>
     </section>
 
-    <section class="block container block-domain">
+    <section data-aos="zoom-in-up" class="block container block-domain">
       <header class="block__header">
         <h2>Starting at $9 per month</h2>
         <p class="">
@@ -83,7 +86,7 @@
       </header>
     </section>
 
-    <section class="block container block-plans">
+    <section data-aos="fade-up" class="block container block-plans">
       <div class="grid grid--1x3">
         <div class="plan">
           <div class="card card--secondary">
@@ -157,7 +160,7 @@
         </p>
       </header>
       <article class="grid grid--1x2 feature">
-        <div class="feature__content">
+        <div data-aos="fade-right" class="feature__content">
           <span class="icon-container">
             <svg class="icon icon--primary">
               <use xlink:href="images/sprite.svg#easy"></use>
@@ -171,7 +174,7 @@
           </p>
           <a href="#" class="link-arrow">Learn more</a>
         </div>
-        <picture>
+        <picture data-aos="zoom-in-left">
           <source
             type="image/webp"
             srcset="images/easy.webp 1x, images/easy@2x.webp 2x"
@@ -184,7 +187,7 @@
         </picture>
       </article>
       <article class="grid grid--1x2 feature">
-        <div class="feature__content">
+        <div data-aos="fade-up" class="feature__content">
           <span class="icon-container">
             <svg class="icon icon--primary">
               <use xlink:href="images/sprite.svg#computer"></use>
@@ -211,7 +214,7 @@
         </picture>
       </article>
       <article class="grid grid--1x2 feature">
-        <div class="feature__content">
+        <div data-aos="fade-up" class="feature__content">
           <span class="icon-container">
             <svg class="icon icon--primary">
               <use xlink:href="images/sprite.svg#wordpress"></use>
@@ -238,7 +241,7 @@
         </picture>
       </article>
       <article class="grid grid--1x2 feature">
-        <div class="feature__content">
+        <div data-aos="fade-up" class="feature__content">
           <span class="icon-container">
             <svg class="icon icon--primary">
               <use xlink:href="images/sprite.svg#snap"></use>
@@ -252,7 +255,7 @@
           </p>
           <a href="#" class="link-arrow">Learn more</a>
         </div>
-        <picture>
+        <picture data-aos="fade-right">
           <source
             type="image/webp"
             srcset="images/support.webp 1x, images/support@2x.webp 2x"
@@ -271,7 +274,7 @@
         <h2>User-friendly Control Panel</h2>
       </header>
       <div class="container grid grid--1x2">
-        <picture class="block-showcase__image">
+        <picture data-aos="fade-right" class="block-showcase__image">
           <source
             type="image/webp"
             srcset="images/ipad.webp 1x, images/ipad@2x.webp 2x"
@@ -282,7 +285,7 @@
           />
           <img src="images/ipad.png" alt="" />
         </picture>
-        <ul class="list">
+        <ul data-aos="fade-up" class="list">
           <li>
             <div class="media">
               <div class="media__image">
@@ -338,7 +341,7 @@
       </div>
     </section>
 
-    <section class="block">
+    <section data-aos="zoom-in" class="block">
       <header class="block__header">
         <h2>What our Customers are Saying</h2>
         <p>
@@ -433,5 +436,9 @@
       </div>
     </footer>
     <script src="js/main.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
