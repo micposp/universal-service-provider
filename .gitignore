@@ -1,1 +1,4 @@
 usp.code-workspace
+node_modules/
+dist/
+.cache/
